@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDN Test Result</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f0f2f5;
+            padding: 20px;
+        }
+
+        .test-container {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .status-icon {
+            text-align: center;
+            font-size: 48px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .result-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .result-item {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .label {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .value {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .timestamp {
+            text-align: center;
+            color: #999;
+            margin-top: 25px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div class="status-icon">✓</div>
+        <h1>Test Successful!</h1>
+        
+        <ul class="result-list">
+            <li class="result-item">
+                <span class="label">CDN Provider</span>
+                <span class="value">Tencent EdgeONE</span>
+            </li>
+            <li class="result-item">
+                <span class="label">Cache Status</span>
+                <span class="value">HIT</span>
+            </li>
+        </ul>
+
+        <div class="timestamp">&copy; Test Pages By MengZe2</div>
+    </div>
+</body>
+</html>
